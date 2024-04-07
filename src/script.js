@@ -1,0 +1,1 @@
+await displayProducts("categories.json", "c");

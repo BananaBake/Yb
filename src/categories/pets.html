@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <link rel="icon" type="image/x-icon" href="../icon.ico">
+  <title>
+    Pets - Yellowtart
+  </title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
+
+  <link href="../style.css" rel="stylesheet" type="text/css" />
+</head>
+  
+<body>
+
+  <div class="audiowide">
+    <center>
+    <button class="logo">YellowTart
+   </button>
+    <p class="quote">“From yaps to cheeps, every pet owner has thier duty”</p>
+    </center>
+    <div id="products">
+    </div>
+  </div>
+  <script src="../list-getter.js"></script>
+  <script src="../displayers.js"></script>
+  <script src="../cart-manager.js"></script>
+  <script type="module">
+    await displayProducts("pets.json", "t");
+  </script>
+</body>
+
+</html>

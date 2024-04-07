@@ -1,0 +1,26 @@
+[
+  {
+    "image": "fruit",
+    "name": "Fruit",
+    "description": "fruuuits",
+    "url": "fruit"
+  },
+  {
+    "image": "fruit2",
+    "name": "Fruit x 2",
+    "description": "Two fruits are always nicer than one.",
+    "url": "fruit2"
+  },
+  {
+    "image": "veg",
+    "name": "Vegetables",
+    "description": "Vegetables somehow go in tarts.",
+    "url": "veg"
+  },  
+  {
+    "image": "pets",
+    "name": "Pets",
+    "description": "Weird but true! Pet tarts?",
+    "url": "pets"
+  } 
+]
